@@ -7147,9 +7147,9 @@ Cw:function Cw(){},
 Cx:function Cx(){},
 a7v:function(a){var s=t.z
 switch(a.a){case"/":return V.yg(new O.MG(),a,new O.MH(),s)
-case"/one":return V.yg(new O.MI(),a,new O.MJ(),s)
-case"/two":return V.yg(new O.MK(),a,new O.ML(),s)
-case"/three":return V.yg(new O.MM(),a,new O.MN(),s)
+case"/page-one":return V.yg(new O.MI(),a,new O.MJ(),s)
+case"/page-two":return V.yg(new O.MK(),a,new O.ML(),s)
+case"/page-three":return V.yg(new O.MM(),a,new O.MN(),s)
 default:return V.yg(new O.MO(),null,V.ac0(),s)}},
 MG:function MG(){},
 MH:function MH(){},
@@ -44807,7 +44807,7 @@ if(F.az(a1,!1).a.a<800)a=b*0.2
 a=M.b2(f,T.aF(U.ha("images/home.jpg",C.bY,f,f),a,s),f,f,f,f,f,f,f)
 g.a.toString
 n=t.t
-a=T.fx(C.be,H.b([a,T.bC(H.b([new V.ig(d,"/one",f)],n),C.o,C.q,C.m)],n),C.aT)
+a=T.fx(C.be,H.b([a,T.bC(H.b([new V.ig(d,"/page-one",f)],n),C.o,C.q,C.m)],n),C.aT)
 m=s/20
 l=T.aF(f,20,f)
 k=L.bI("Page One",A.ba(f,f,f,f,f,f,f,f,f,f,f,40,f,f,f,f,!0,f,f,f,f,f,f),f)
@@ -44855,7 +44855,7 @@ if(F.az(a1,!1).a.a<800)a=b*0.2
 a=M.b2(f,T.aF(U.ha("images/home.jpg",C.bY,f,f),a,s),f,f,f,f,f,f,f)
 g.a.toString
 n=t.t
-a=T.fx(C.be,H.b([a,T.bC(H.b([new V.ig(d,"/three",f)],n),C.o,C.q,C.m)],n),C.aT)
+a=T.fx(C.be,H.b([a,T.bC(H.b([new V.ig(d,"/page-three",f)],n),C.o,C.q,C.m)],n),C.aT)
 m=s/20
 l=T.aF(f,20,f)
 k=L.bI("Page Three",A.ba(f,f,f,f,f,f,f,f,f,f,f,40,f,f,f,f,!0,f,f,f,f,f,f),f)
@@ -44903,7 +44903,7 @@ if(F.az(a1,!1).a.a<800)a=b*0.2
 a=M.b2(f,T.aF(U.ha("images/home.jpg",C.bY,f,f),a,s),f,f,f,f,f,f,f)
 g.a.toString
 n=t.t
-a=T.fx(C.be,H.b([a,T.bC(H.b([new V.ig(d,"/two",f)],n),C.o,C.q,C.m)],n),C.aT)
+a=T.fx(C.be,H.b([a,T.bC(H.b([new V.ig(d,"/page-two",f)],n),C.o,C.q,C.m)],n),C.aT)
 m=s/20
 l=T.aF(f,20,f)
 k=L.bI("Page Two",A.ba(f,f,f,f,f,f,f,f,f,f,f,40,f,f,f,f,!0,f,f,f,f,f,f),f)
@@ -48895,7 +48895,7 @@ $.abS=H.b([!1,!1,!1],t.lA)
 $.abT=H.b([!0,!1,!1],t.lA)
 $.abQ=H.b([!1,!1,!1,!1],t.lA)
 $.abU=H.b(["Home","Page One","Page Two","Page Three"],t.i)
-$.abV=H.b(["/","/one","/two","/three"],t.i)
+$.abV=H.b(["/","/page-one","/page-two","/page-three"],t.i)
 $.abR=H.b([!1,!1],t.lA)
 $.mz=null
 $.a1i=!0})();(function lazyInitializers(){var s=hunkHelpers.lazy,r=hunkHelpers.lazyOld
