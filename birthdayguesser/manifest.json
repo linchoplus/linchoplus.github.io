@@ -1,11 +1,11 @@
 {
-    "name": "birthday_guesser",
-    "short_name": "birthday_guesser",
+    "name": "birthday_guesser_plus",
+    "short_name": "birthday_guesser_plus",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter application.",
+    "description": "Magic trick - Birthday Guesser",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
